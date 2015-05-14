@@ -7,14 +7,16 @@ var preloadfn = function (arg){
 	$('#preload').css('display', 'block');
 	if (arg != undefined) {
 		namePage = arg;
+
 	} else {
+
 		var adress = (window.location.search).replace("?", "");
 		if(adress.length != 0) $('body').attr('htm', adress)
 		namePage = $('body').attr('htm');
 	}
 
 
-	if(namePage.indexOf('htm') == -1) namePage += '.htm';
+	if(namePage.indexOf('html') == -1) namePage += '.html';
 	$.ajax({  
 	    url: namePage, 
 	    dataType: "html",
