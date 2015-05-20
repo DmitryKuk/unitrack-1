@@ -97,20 +97,23 @@ li.add {
 }
 
 .centralpanel {
-	width: 260px;
+	width: 259px;
 	height: 100%;
 	background-color: #f2f2f2;
 	left: 51px;
 	border-right: 1px solid #dbdbdb;
+	-moz-box-shadow: 0px 1px 4px #000000;
+	-webkit-box-shadow: 0px 1px 4px #000000;
+	box-shadow: 0px 1px 4px #000000;
 }
 
 .contentpanel {
-	width: 856px;
+	width: 854px;
 	padding: 10px;
 	padding-left: 20px;
 	height: 100%;
 	overflow: auto;
-	left: 313px;
+	left: 315px;
 	color:#2c3e50;
 	background-color: #fff;
 
@@ -233,7 +236,7 @@ ul.navleft li {
 }
 
 ul.navcentral li {
-	width: 240px;
+	width: 239px;
 	padding:10px;
 	color:#4c4c4f;
 	font-size: 23px;
@@ -250,7 +253,7 @@ ul.navleft li:hover, ul.navcentral li:hover, ul.navleft .active {
 	border-left:1px solid #f2f2f2;
 	
 }
-ul.navcentral li:hover {background-color: #fdfdfd; width: 239px; border-right: 1px solid #f2f2f2;}
+ul.navcentral li:hover {background-color: #fdfdfd; width: 238px; border-right: 1px solid #f2f2f2;}
 
 .name-1 {background-image: url(../img/leftpanel/set.png);}
 .name-2 {background-image: url(../img/leftpanel/save.png);}
