@@ -96,7 +96,6 @@ a {
 	top: 0;
 	left: 0;
 	z-index: 10
-	
 }
 
 .toppanel .nav {
@@ -110,7 +109,6 @@ a {
 	padding: 15px;
 	font-size: 20px;
 	color: #fff;
-	border-right: 1px solid #dbdbdb;
 }
 
 .toppanel .nav .logo {
@@ -120,6 +118,7 @@ a {
 	font-size: 30px;
 	/*background-color: #383f87;*/
 	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #dbdbdb;
 	/*text-align: center;*/
 }
 
@@ -131,20 +130,22 @@ a {
 	float: left;
 }
 
-.toppanel .nav li:hover, .toppanel .nav .active {
-	background-color: #2e2f31;
-	cursor: pointer;
+.toppanel .nav li:hover, .toppanel .nav .tab.active {
+	/*background-color: #2e2f31;*/
+	/*cursor: pointer;*/
 }
 
 .toppanel .nav .tab.about {
 	float: right;
 	/*margin-right: 200px;*/
+	cursor: pointer;
 }
 
 .toppanel .nav .quit {
 	float: right;
 	/*color: #7a7a7c;*/
 	/*margin: 10px;*/
+	cursor: pointer;
 }
 
 
