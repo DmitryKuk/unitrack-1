@@ -130,13 +130,8 @@ a {
 	float: left;
 }
 
-.toppanel .nav li:hover, .toppanel .nav .tab.active {
-	/*background-color: #2e2f31;*/
-	/*cursor: pointer;*/
-}
-
 .toppanel .nav .tab.about {
-	float: right;
+	/*float: right;*/
 	/*margin-right: 200px;*/
 	cursor: pointer;
 }
@@ -146,6 +141,11 @@ a {
 	/*color: #7a7a7c;*/
 	/*margin: 10px;*/
 	cursor: pointer;
+}
+
+.toppanel .nav .logo:hover, .toppanel .nav .tab.about:hover, .toppanel .nav .quit:hover {
+	background-color: #2e2f31;
+	/*cursor: pointer;*/
 }
 
 
