@@ -145,7 +145,7 @@ a {
 
 .toppanel .nav .logo:hover, .toppanel .nav .tab.about:hover, .toppanel .nav .quit:hover {
 	background-color: #2e2f31;
-	/*cursor: pointer;*/
+	cursor: pointer;
 }
 
 
