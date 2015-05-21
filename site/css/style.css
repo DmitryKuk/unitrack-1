@@ -45,11 +45,11 @@ a {
 }
 
 
-.leftpanel {
+.left-panel {
 	width: 230px;
 }
 
-.leftpanel .label {
+.left-panel .label {
 	float: right;
 	margin-left: 10px;
 	min-width: 25px;
@@ -60,7 +60,7 @@ a {
 	text-align: center;
 }
 
-.content .leftpanel {
+.content .left-panel {
 	height: 100%;
 	background-color: #f2f2f2;
 	left: 0px;
@@ -70,7 +70,7 @@ a {
 	box-shadow: 0px #000000;
 }
 
-.contentpanel {
+.content-panel {
 	width: 854px;
 	padding: 10px;
 	padding-left: 20px;
@@ -83,7 +83,7 @@ a {
 }
 
 
-.toppanel {
+.top-panel {
 	width: 100%;
 	height: 50px;
 	background-color: #414246;
@@ -98,11 +98,11 @@ a {
 	z-index: 10
 }
 
-.toppanel .nav {
+.top-panel .nav {
 	list-style: none
 }
 
-.toppanel ul.nav li {
+.top-panel ul.nav li {
 	display: block;
 	float: left;
 	height: 30px;
@@ -111,7 +111,7 @@ a {
 	color: #fff;
 }
 
-.toppanel .nav .logo {
+.top-panel .nav .logo {
 	/*width: 30px;*/
 	width: 210px;
 	padding: 10px;
@@ -122,28 +122,28 @@ a {
 	/*text-align: center;*/
 }
 
-.toppanel .leftpanel .label {
+.top-panel .left-panel .label {
 	font-size: 20px;
 }
 
-.toppanel .nav .tab {
+.top-panel .nav .tab {
 	float: left;
 }
 
-.toppanel .nav .tab.about {
+.top-panel .nav .tab.about {
 	/*float: right;*/
 	/*margin-right: 200px;*/
 	cursor: pointer;
 }
 
-.toppanel .nav .quit {
-	float: right;
+.top-panel .nav .quit {
+	/*float: right;*/
 	/*color: #7a7a7c;*/
 	/*margin: 10px;*/
 	cursor: pointer;
 }
 
-.toppanel .nav .logo:hover, .toppanel .nav .tab.about:hover, .toppanel .nav .quit:hover {
+.top-panel .nav .logo:hover, .top-panel .nav .tab.about:hover, .top-panel .nav .quit:hover {
 	background-color: #2e2f31;
 	cursor: pointer;
 }
@@ -206,7 +206,7 @@ h2 {font-size: 20px; font-weight: bold}
 .w2 {
 	width: 300px; height: 300px;
 	float: right;
-	background: url(../img/contentpanel/welcome.png) no-repeat center center;
+	background: url(../img/content-panel/welcome.png) no-repeat center center;
 }
 
 .clear {clear:both;}
@@ -255,12 +255,12 @@ div.point {
 }
 
 
-.name-1 {background-image: url(../img/leftpanel/set.png);}
-.name-2 {background-image: url(../img/leftpanel/save.png);}
-.name-3 {background-image: url(../img/leftpanel/n.png);}
-.name-4 {background-image: url(../img/leftpanel/rep.png);}
-.name-5 {background-image: url(../img/leftpanel/cath.png);}
-.name-6 {background-image: url(../img/leftpanel/mod.png);}
-.name-7 {background-image: url(../img/leftpanel/mes.png);}
+.name-1 {background-image: url(../img/left-panel/set.png);}
+.name-2 {background-image: url(../img/left-panel/save.png);}
+.name-3 {background-image: url(../img/left-panel/n.png);}
+.name-4 {background-image: url(../img/left-panel/rep.png);}
+.name-5 {background-image: url(../img/left-panel/cath.png);}
+.name-6 {background-image: url(../img/left-panel/mod.png);}
+.name-7 {background-image: url(../img/left-panel/mes.png);}
 
 span.clear {clear: both; display: block;}
