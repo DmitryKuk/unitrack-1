@@ -1,0 +1,206 @@
+@import(font.css);
+* {margin:0; padding:0;}
+html {font-family: 'Roboto', sans-serif; background-color: #f0f0f0; min-width: 1024px;}
+a {color: #fff; text-decoration: none;}
+
+/* 1ый блок */
+.top-menu {
+	min-width: 1024px;
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top:0;
+	height:40px;
+	left:0;
+	z-index: 3;
+	background-color: #414246;
+	-moz-box-shadow: 1px 1px 5px #000000;
+	-webkit-box-shadow: 1px 1px 5px #000000;
+	box-shadow: 1px 1px 5px #000000;
+	border-bottom: 1px solid #2e2f31;
+}
+
+.clear {clear:both; display: block}
+
+.autocentral {
+	width: 1000px;
+	padding: 0 12px 0 12px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.label {
+	background: #2abb9b;
+	padding: 2px;
+	border: 1px solid #25a68a;
+	text-align: right;
+	margin: 5px;
+	font-size:15px;
+	border-radius: 3px;
+}
+
+.nav {list-style: none;}
+
+.rightnav {
+	position: absolute;
+	right: 12px;
+	top:0;
+
+}
+
+.nav li {
+	text-align: center;
+	float:left;
+	padding: 10px;
+	height: 20px;
+	font-size: 18px;
+	border-left: 1px solid #414246;
+	border-right: 1px solid #dbdbdb;
+}
+
+.logli {border-left: 1px solid #dbdbdb; width: 200px}
+
+.nav li:hover, .nav .active {
+	background-color: #2e2f31;
+	border-left: 1px solid #dbdbdb;
+}
+
+
+
+/* 2ой блок */
+.main {
+	width: 1000px;
+	position: absolute;
+	top: 40px;
+	z-index: 1;
+}
+
+.left {
+	width:218px;
+	margin-left:1px;
+	background-color: #e6e6e6;
+	z-index: 2;
+	padding-bottom: 20px;
+}
+
+	.navcentral {list-style: none; margin-top: 5px}
+	.navcentral li {
+		cursor: pointer;
+	    width: 197px;
+	    padding:10px;
+	    color:#4c4c4f;
+	    font-size: 15px;
+	    border:1px solid #dbdbdb;
+		border-right: 1px solid #f2f2f2;
+		border-left:1px solid #f2f2f2;
+
+	}
+
+	.navcentral li:hover {
+	    background-color: #f2f2f2;
+		border:1px solid #dbdbdb;
+		border-right: 1px solid #f2f2f2;
+		border-left:1px solid #f2f2f2;
+	}
+
+	.new {
+	    background:#2abb9b;
+	    color:#fff;
+	    padding:3px;
+	    border:1px solid #25a68a;
+	    margin-left: 10px;
+	    width: 25px;
+	    height: 25px;
+	    -moz-border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	    font-size:15px;
+	    text-align: center;
+    	margin-top: 0px;
+	}
+
+.right {
+	width: 760px;
+	padding: 10px;
+	left: 218px;
+	z-index:1;
+	background-color: #fff;
+	color:#2c3e50;
+
+
+}
+
+.left, .right {
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	position: absolute;
+	-moz-box-shadow: 0px 1px 4px #000000;
+	-webkit-box-shadow: 0px 1px 4px #000000;
+	box-shadow: 0px 1px 4px #000000;
+}
+
+	.hr {
+		display: block;
+	    width: 100%;
+	    height: 1px;
+	    margin: 10px 0 10px 0;
+	    background:#e3e3e3;
+	}
+
+ 	.wlogo {
+        width: 300px;
+        height: 300px;
+        float: right;
+        background: url(../img/wellcome.png) no-repeat center center;
+    }
+
+    .mh1 {font-size: 30px; }
+	.nh2 {font-size: 20px;}
+	.mh1, .mh2 {font-weight: bold; margin: 5px}
+
+	.right p {margin: 35px 0 35px 0; text-align: justify; margin: 5px}
+	.title {color: #4c4c4c;}
+
+	.right, .left {
+		overflow: auto;
+		overflow-x: hidden;
+	}
+
+
+	.info {margin-bottom: 20px}
+
+	.color {
+	    width: auto;
+	    height: 20px;
+	    padding:10px;
+	    text-align: center;
+	    border:1px solid #ccc;
+	    -moz-box-shadow: 1px 1px 5px #ccc;
+	    -webkit-box-shadow: 1px 1px 5px #ccc;
+	    box-shadow: 1px 1px 5px #ccc;
+	    float:right;
+	    margin-right: 10px;
+	    -moz-border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	}
+
+	.fleft {float:left;}
+
+	.yel {
+	    background: #f0ad4e;
+	    color:#fff;
+	    border: 1px solid #eea236;
+	}
+	.gr {
+	    background:#2abb9b;
+	    color:#fff;
+	    border:1px solid #25a68a;
+	}
+
+	.bl {
+	    background:#1f8dd6;
+	    color:#fff;
+	    border:1px solid #1c7ec0;
+	}

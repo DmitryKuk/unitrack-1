@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<noscript><meta http-equiv="Refresh" content="1; site/index.html" /></noscript>
-	<link rel="shortcut icon"  href="core/css/img/favicon.ico" />
-	<link rel="stylesheet" href="core/css/reset.css" />
-	<script src='core/js/load.js'></script>
-	<script src='core/js/jquery.js'></script>
+	<meta charset="uft-8" />
+	<title>unitrack</title>
+	<noscript><meta http-equiv="Refresh" content="1; auth.html" /></noscript>
+	<link rel="shortcut icon"  href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<!--[if (lt IE 9)]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="js/selectivizr-min.js"></script>
+	<![endif]-->
+	<script src="js/preloader.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/load.js"></script>
 </head>
-<body loadhtml='index.html'>
-	<div id="preload"></div>
-	<div class="loadpage">
-		<!-- page onload -->
-	</div>
-	<script src='core/js/preloader.js'></script>
+<body data-loadhtml="auth.html">
+	<section id="loader-image"></section>
+	<section class="loadpage"></section>
 </body>
 </html>

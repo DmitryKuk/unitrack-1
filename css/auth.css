@@ -1,0 +1,82 @@
+
+/* tags */
+@import(font.css);
+
+html, body {
+	background: #edf0f2;
+	color: #221f1f;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	height: 100%;
+	position: relative;
+ }
+
+.logo {
+	background: url(../img/auth/logo.png) no-repeat;
+	height: 266px;
+	margin: 0 auto;
+	width: 235px;
+ }
+
+.center {
+	height: 400px;
+	left: 50%;
+	margin: -200px 0 0 -250px; /* (высота)/2 0 0 (ширина)/2 */
+	overflow: hidden;
+	position: fixed;
+	top: 50%;
+	width: 500px;
+ }
+
+/* Auth Form */
+input[type=text], input[type=password],.submit, .reg {border: 0;}
+
+.intro, input[type=text], input[type=password] {float: right;}
+
+.pointer, .reg, .submit {cursor: pointer;}
+
+.auth {
+	height: 120px;
+	margin: 5px auto;
+	position: relative;
+	width: 440px;
+ }
+
+input[type=text], input[type=password] {
+	background: url(../img/auth/email.png) no-repeat;
+	color: #fff;
+	font-size: 15px;
+	height: 20px;
+	margin: 2px 26px 2px 2px;
+	padding: 10px;
+	width: 288px;
+ }
+
+input[type=password] {background: url(../img/auth/password.png) no-repeat;}
+
+.intro {margin-top: 15px;}
+
+.submit {
+	background: url(../img/auth/send.png) no-repeat;
+	display: block;
+	height: 50px;
+	padding: 0;
+	position: absolute;
+	right: 5px;
+	top: 19px;
+	width: 50px;
+ }
+
+.reg {
+	background: none;
+	color: #6296b4;
+	display: block;
+	margin: 15px auto;
+	margin-left: 150px;
+	text-align: center;
+ }
+
+	.reg:hover {text-decoration: underline}
+
+
