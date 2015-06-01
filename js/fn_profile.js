@@ -2,6 +2,9 @@ var ncp = '#loader-image';
 
 $(function(){
     $('.left, .right').css('height', $(window).height()-60+'px');
+    $(window).resize(function(){
+        $('.left, .right').css('height', $(window).height()-60+'px');
+    });
 
     $('a').bind("click", function(){
 
