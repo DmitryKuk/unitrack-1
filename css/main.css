@@ -14,9 +14,7 @@ a {display: block; width: inherit; height: inherit; text-decoration: none;}
 	left:0;
 	z-index: 3;
 	background-color: #414246;
-	-moz-box-shadow: 1px 1px 5px #000000;
-	-webkit-box-shadow: 1px 1px 5px #000000;
-	box-shadow: 1px 1px 5px #000000;
+
 	border-bottom: 1px solid #2e2f31;
 }
 
@@ -76,8 +74,8 @@ span.label {
 }
 
 .left {
-	width:218px;
-	margin-left:1px;
+	width:220px;
+	margin-left:0px;
 	background-color: #e6e6e6;
 	z-index: 2;
 	padding-bottom: 20px;
@@ -137,12 +135,10 @@ span.label {
 }
 
 .left, .right {
-	border-left: 1px solid #dbdbdb;
-	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #767676;
+	border-right: 1px solid #767676;
 	position: absolute;
-	-moz-box-shadow: 0px 1px 4px #000000;
-	-webkit-box-shadow: 0px 1px 4px #000000;
-	box-shadow: 0px 1px 4px #000000;
+
 }
 
 	.hr {

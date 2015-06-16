@@ -157,7 +157,11 @@
         padding:2px;
         position: relative;
         text-overflow: ellipsis;
-        border-left:3px solid #DBDBDB;
+        border-left:3px solid #fff;
+    }
+
+    .list-p:hover .mright {
+        border-left:3px solid #F0F0F0;
     }
 
     .botwh {
